@@ -4,15 +4,18 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Rendering;
 
-[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Rigidbody2D), typeof(TouchDirection))]
 public class PlayerController : MonoBehaviour
 {
 
     public float WalkSpeed = 5f;
     public float RunSpeed = 8f;
+    public float JumpPower = 6f;
     Vector2 MoveInput;
     Rigidbody2D rb;
     Animator animator;
+
+    TouchDirection touchDirection;
 
     [SerializeField] private bool _isFacingRight = true;
 
@@ -80,6 +83,7 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        touchDirection = GetComponent<TouchDirection>();
     }
 
 
@@ -125,6 +129,15 @@ public class PlayerController : MonoBehaviour
             isRunning = true;
         } else if(context.canceled) {
             isRunning = false;    
+        }
+    }
+
+    public void OnJump(InputAction.CallbackContext context)
+    {
+        if(context.started && touchDirection.isGrounded)
+        {
+            animator.SetTrigger(AnimationStrings.jump);
+            rb.velocity = new Vector2(rb.velocity.y, JumpPower);
         }
     }
 }
