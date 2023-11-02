@@ -35,6 +35,14 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public bool canMove
+    {
+        get
+        {
+            return animator.GetBool(AnimationStrings.canMove);
+        }
+    }
+
     [SerializeField] private bool _isMoving = false;
 
     public bool isMoving
@@ -67,14 +75,17 @@ public class PlayerController : MonoBehaviour
     {
         get
         {
-            if(isMoving)
+            if(canMove)
             {
-                if(isRunning)
+                if(isMoving)
                 {
-                    return RunSpeed;
-                } else {
-                    return WalkSpeed;
-                }
+                    if(isRunning)
+                    {
+                        return RunSpeed;
+                    } else {
+                        return WalkSpeed;
+                    }
+                } else return 0;
             } else return 0;
         }
     }
@@ -138,6 +149,14 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetTrigger(AnimationStrings.jump);
             rb.velocity = new Vector2(rb.velocity.y, JumpPower);
+        }
+    }
+
+    public void OnAttack(InputAction.CallbackContext context)
+    {
+        if(context.started && touchDirection.isGrounded)
+        {
+            animator.SetTrigger(AnimationStrings.attack);
         }
     }
 }
