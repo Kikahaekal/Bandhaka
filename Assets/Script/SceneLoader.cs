@@ -12,6 +12,7 @@ public class SceneLoader : MonoBehaviour
     public void LoadScene(int levelIndex)
     {
         StartCoroutine(LoadScreenAsync(levelIndex));
+        Time.timeScale = 1f;
     }
 
     IEnumerator LoadScreenAsync(int levelIndex)

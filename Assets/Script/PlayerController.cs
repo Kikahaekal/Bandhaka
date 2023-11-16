@@ -11,6 +11,8 @@ public class PlayerController : MonoBehaviour
     public float WalkSpeed = 5f;
     public float RunSpeed = 8f;
     public float JumpPower = 6f;
+
+    public float plungeSpeed = 20f;
     Vector2 MoveInput;
     Rigidbody2D rb;
     Animator animator;
@@ -18,6 +20,32 @@ public class PlayerController : MonoBehaviour
     TouchDirection touchDirection;
 
     [SerializeField] private bool _isFacingRight = true;
+    [SerializeField] private AudioSource PunchSoundEffect;
+    [SerializeField] private AudioSource JumpSoundEffect;
+
+    // private bool triggeredJump
+    // {
+    //     get
+    //     {
+    //         return animator.GetBool("jump");
+    //     }
+    // }
+
+    private bool isAttacking 
+    {
+        get
+        {
+            return animator.GetBool(AnimationStrings.isAttacking);
+        }
+    }
+
+    private bool isPlunging
+    {
+        get
+        {
+            return animator.GetBool(AnimationStrings.isPlunging);
+        }
+    }
 
     public bool isFacingRight 
     {
@@ -113,6 +141,8 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         rb.velocity = new Vector2(MoveInput.x * CurrentSpeed, rb.velocity.y);
+
+        animator.SetFloat(AnimationStrings.yVelocity, rb.velocity.y);
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -147,6 +177,7 @@ public class PlayerController : MonoBehaviour
     {
         if(context.started && touchDirection.isGrounded)
         {
+            JumpSoundEffect.Play();
             animator.SetTrigger(AnimationStrings.jump);
             rb.velocity = new Vector2(rb.velocity.y, JumpPower);
         }
@@ -154,9 +185,32 @@ public class PlayerController : MonoBehaviour
 
     public void OnAttack(InputAction.CallbackContext context)
     {
-        if(context.started && touchDirection.isGrounded)
+        if(context.started && !isAttacking)
         {
             animator.SetTrigger(AnimationStrings.attack);
+            PunchSoundEffect.Play();
+        }
+    }
+
+    public void OnPlunge(InputAction.CallbackContext context)
+    {
+        if(context.started && !touchDirection.isGrounded && !isPlunging)
+        {
+            StartCoroutine(PlungeSequence());
+        }
+    }
+
+    private IEnumerator PlungeSequence()
+    {
+        animator.SetTrigger(AnimationStrings.plunge);
+        PunchSoundEffect.Play();
+
+        yield return new WaitForSeconds(0.1f);
+
+        while(isPlunging)
+        {
+            transform.Translate(Vector2.down * Time.deltaTime * plungeSpeed);
+            yield return null;
         }
     }
 }
