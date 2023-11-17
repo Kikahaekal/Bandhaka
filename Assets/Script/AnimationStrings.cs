@@ -22,5 +22,6 @@ internal class AnimationStrings
     internal static string attack = "attack";
     internal static string hit = "hit";
     internal static string plunge = "plunge";
+    internal static string dodge = "dodge";
 
 }

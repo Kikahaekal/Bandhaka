@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
     public float JumpPower = 6f;
 
     public float plungeSpeed = 20f;
+
+    public float dodgeSpeed = 6f;
     Vector2 MoveInput;
     Rigidbody2D rb;
     Animator animator;
@@ -23,19 +25,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private AudioSource PunchSoundEffect;
     [SerializeField] private AudioSource JumpSoundEffect;
 
-    // private bool triggeredJump
-    // {
-    //     get
-    //     {
-    //         return animator.GetBool("jump");
-    //     }
-    // }
-
     private bool isAttacking 
     {
         get
         {
             return animator.GetBool(AnimationStrings.isAttacking);
+        } set {
+            animator.SetBool(AnimationStrings.isAttacking, value);
         }
     }
 
@@ -184,8 +180,8 @@ public class PlayerController : MonoBehaviour
     }
 
     public void OnAttack(InputAction.CallbackContext context)
-    {
-        if(context.started && !isAttacking)
+    {   
+        if(context.started)
         {
             animator.SetTrigger(AnimationStrings.attack);
             PunchSoundEffect.Play();
@@ -212,5 +208,48 @@ public class PlayerController : MonoBehaviour
             transform.Translate(Vector2.down * Time.deltaTime * plungeSpeed);
             yield return null;
         }
+    }
+
+    public void OnDodge(InputAction.CallbackContext context)
+    {
+        if(context.started && touchDirection.isGrounded)
+        {
+
+            if(isMoving)
+            {
+                // Mendapatkan arah karakter (1 untuk kanan, -1 untuk kiri)
+                float characterDirection = Mathf.Sign(transform.localScale.x);
+
+                // Memainkan animasi dodge
+                animator.SetTrigger(AnimationStrings.dodge);
+                // Menentukan posisi target setelah dodge
+                float dodgeDistance = 9.0f; // Sesuaikan dengan kebutuhan Anda
+                Vector3 dodgeTarget = transform.position + new Vector3(characterDirection * dodgeDistance, 0f, 0f);
+
+                // Memulai animasi pergerakan ke posisi target
+                StartCoroutine(MoveToTarget(dodgeTarget));
+
+            }
+
+        }
+    }
+
+    // Coroutine untuk menggerakkan karakter ke posisi target
+    private IEnumerator MoveToTarget(Vector3 targetPosition)
+    {
+        float elapsedTime = 0f;
+        float moveDuration = 0.5f; // Sesuaikan dengan kebutuhan Anda
+
+        Vector3 startingPosition = transform.position;
+
+        while (elapsedTime < moveDuration)
+        {
+            transform.position = Vector3.Lerp(startingPosition, targetPosition, elapsedTime / moveDuration);
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        // Pastikan karakter berada pada posisi target setelah pergerakan selesai
+        transform.position = targetPosition;
     }
 }

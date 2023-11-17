@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -134,7 +134,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Bandhaka-Attack-3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 46.625
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a33592e47080c44c9efcab197a6fdb9
+      internalID: -830515004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bandhaka-Attack-3_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 43
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8174fadbaffdf74ea488aa57d3e5732
+      internalID: -2141985930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bandhaka-Attack-3_2
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 0
+        width: 41
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9dde480b87691e4493e6d70d9787866
+      internalID: -1864797632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bandhaka-Attack-3_3
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 0
+        width: 39
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0e6002f7f277647a146411a78a2066
+      internalID: -1593099092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bandhaka-Attack-3_4
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 0
+        width: 58
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 181eb5f6dd63c3c4d934dbd83fb08e65
+      internalID: -732545574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bandhaka-Attack-3_5
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 0
+        width: 56
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9790ea9f0ecdb1a4f966225bc2fd5230
+      internalID: -1216029398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bandhaka-Attack-3_6
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 0
+        width: 51
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48314edb3ebe62e499a19b1f1b8f454d
+      internalID: -572830597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bandhaka-Attack-3_7
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 0
+        width: 39
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3234321a0248b714a8369b66e9a8315e
+      internalID: -886428573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +313,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bandhaka-Attack-3_0: -830515004
+      Bandhaka-Attack-3_1: -2141985930
+      Bandhaka-Attack-3_2: -1864797632
+      Bandhaka-Attack-3_3: -1593099092
+      Bandhaka-Attack-3_4: -732545574
+      Bandhaka-Attack-3_5: -1216029398
+      Bandhaka-Attack-3_6: -572830597
+      Bandhaka-Attack-3_7: -886428573
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

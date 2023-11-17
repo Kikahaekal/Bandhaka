@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 6b5f2ef9286b06b42b03d350e4f44f42
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Flying_Enemy_Idle_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -1.3703704}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 483
+      width: 128
+      height: 54
+    spriteID: 07b603fbbb9d36945b65b1c78a176b70
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 483}
+  - name: Flying_Enemy_Idle_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -1.3703704}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 545
+      width: 128
+      height: 54
+    spriteID: ae9adfce5600cbc429644aed395a9dd6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 545}
+  - name: Flying_Enemy_Idle_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: -1.3703704}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 607
+      width: 128
+      height: 54
+    spriteID: c0eda677d95707a47adb00577dde9feb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 607}
+  - name: Flying_Enemy_Idle_Frame_3
+    originalName: 
+    pivot: {x: 0.5, y: -1.3703704}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 669
+      width: 128
+      height: 54
+    spriteID: 6975f570eefdc0748b83b9ef78a7132d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 669}
+  - name: Flying_Enemy_Idle_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -1.3703704}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 731
+      width: 128
+      height: 54
+    spriteID: 23478913d4dc60a4abe312b2beb685c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 731}
+  - name: Flying_Enemy_Idle_Frame_5
+    originalName: 
+    pivot: {x: 0.5, y: -1.4150944}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 190
+      width: 128
+      height: 53
+    spriteID: 1b446a48a444bf24a9e5786b49278146
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 190}
+  - name: Flying_Enemy_Idle_Frame_6
+    originalName: 
+    pivot: {x: 0.5, y: -1.4150944}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 251
+      width: 128
+      height: 53
+    spriteID: c5fbb0eca4e967b459326fb709c3e1f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 251}
+  - name: Flying_Enemy_Idle_Frame_7
+    originalName: 
+    pivot: {x: 0.5, y: -1.4150944}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 312
+      width: 128
+      height: 53
+    spriteID: 36c8099ad1a14ca468306819387f0ad6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 312}
+  - name: Flying_Enemy_Idle_Frame_8
+    originalName: 
+    pivot: {x: 0.5, y: -1.4150944}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 373
+      width: 128
+      height: 53
+    spriteID: 9ddb2f11bdc0f594c988f67fb67f6546
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 373}
+  - name: Flying_Enemy_Idle_Frame_9
+    originalName: 
+    pivot: {x: 0.5, y: -1.4150944}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 434
+      width: 128
+      height: 53
+    spriteID: 490ed014af1b6c24f976a1e4d56e501d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 434}
+  - name: Flying_Enemy_Idle_Frame_10
+    originalName: 
+    pivot: {x: 0.5, y: -1.4150944}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 495
+      width: 128
+      height: 53
+    spriteID: eebad9f8eac867d498341202f1aeb2cf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 495}
+  - name: Flying_Enemy_Idle_Frame_11
+    originalName: 
+    pivot: {x: 0.5, y: -1.3703704}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 793
+      width: 128
+      height: 54
+    spriteID: fa141c0239bb93b43871cee430b6d940
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 793}
+  - name: Flying_Enemy_Idle_Frame_12
+    originalName: 
+    pivot: {x: 0.5, y: -1.3703704}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 855
+      width: 128
+      height: 54
+    spriteID: d7f43714606d98e41a5247cede87d5d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 855}
+  - name: Flying_Enemy_Idle_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: -1.3703704}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 917
+      width: 128
+      height: 54
+    spriteID: 228a513ef42395b43af275f7dcb82bd6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 917}
+  - name: Flying_Enemy_Idle_Frame_14
+    originalName: 
+    pivot: {x: 0.5, y: -1.3703704}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 4
+      width: 128
+      height: 54
+    spriteID: f62cd1844d03abe4999ecb2b3d29108b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 4}
+  - name: Flying_Enemy_Idle_Frame_15
+    originalName: 
+    pivot: {x: 0.5, y: -1.3703704}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 66
+      width: 128
+      height: 54
+    spriteID: dbcdaff7799b4c4438c58a492496574f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 66}
+  - name: Flying_Enemy_Idle_Frame_16
+    originalName: 
+    pivot: {x: 0.5, y: -0.939394}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 262
+      width: 128
+      height: 66
+    spriteID: 07bedb7ed70ae044eb8822d14079aa43
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 262}
+  - name: Flying_Enemy_Idle_Frame_17
+    originalName: 
+    pivot: {x: 0.5, y: -0.7297298}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 180
+      width: 128
+      height: 74
+    spriteID: 74b9628caa6af1048a660ce218b4ecdf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 180}
+  - name: Flying_Enemy_Idle_Frame_18
+    originalName: 
+    pivot: {x: 0.5, y: -0.6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 128
+      height: 80
+    spriteID: fcbf56dc217610748a00ac467aa42495
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Flying_Enemy_Idle_Frame_19
+    originalName: 
+    pivot: {x: 0.5, y: -0.6}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 92
+      width: 128
+      height: 80
+    spriteID: af627ff45ea37b84a92aec8bf9f0a8c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 92}
+  - name: Flying_Enemy_Idle_Frame_20
+    originalName: 
+    pivot: {x: 0.5, y: -0.9692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 410
+      width: 128
+      height: 65
+    spriteID: 0a4ef9772d27e9e4ba53f9d977d09b81
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 410}
+  - name: Flying_Enemy_Idle_Frame_21
+    originalName: 
+    pivot: {x: 0.5, y: -0.939394}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 336
+      width: 128
+      height: 66
+    spriteID: b1af39c867824f7489e4a170f5888e2e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 336}
+  - name: Flying_Enemy_Idle_Frame_22
+    originalName: 
+    pivot: {x: 0.5, y: -1.3703704}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 140
+      y: 128
+      width: 128
+      height: 54
+    spriteID: 46ddf528bd435a04a8b7a1308156b1bd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 140, y: 128}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1378617607
+    name: Flying_Enemy_Idle
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Flying_Enemy_Idle_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 0
+        y: 74
+        width: 128
+        height: 54
+      spriteId: 07b603fbbb9d36945b65b1c78a176b70
+    - name: Flying_Enemy_Idle_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 0
+        y: 74
+        width: 128
+        height: 54
+      spriteId: ae9adfce5600cbc429644aed395a9dd6
+    - name: Flying_Enemy_Idle_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 0
+        y: 74
+        width: 128
+        height: 54
+      spriteId: c0eda677d95707a47adb00577dde9feb
+    - name: Flying_Enemy_Idle_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 0
+        y: 74
+        width: 128
+        height: 54
+      spriteId: 6975f570eefdc0748b83b9ef78a7132d
+    - name: Flying_Enemy_Idle_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 0
+        y: 74
+        width: 128
+        height: 54
+      spriteId: 23478913d4dc60a4abe312b2beb685c1
+    - name: Flying_Enemy_Idle_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 0
+        y: 75
+        width: 128
+        height: 53
+      spriteId: 1b446a48a444bf24a9e5786b49278146
+    - name: Flying_Enemy_Idle_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 0
+        y: 75
+        width: 128
+        height: 53
+      spriteId: c5fbb0eca4e967b459326fb709c3e1f8
+    - name: Flying_Enemy_Idle_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 0
+        y: 75
+        width: 128
+        height: 53
+      spriteId: 36c8099ad1a14ca468306819387f0ad6
+    - name: Flying_Enemy_Idle_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 0
+        y: 75
+        width: 128
+        height: 53
+      spriteId: 9ddb2f11bdc0f594c988f67fb67f6546
+    - name: Flying_Enemy_Idle_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 0
+        y: 75
+        width: 128
+        height: 53
+      spriteId: 490ed014af1b6c24f976a1e4d56e501d
+    - name: Flying_Enemy_Idle_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 0
+        y: 75
+        width: 128
+        height: 53
+      spriteId: eebad9f8eac867d498341202f1aeb2cf
+    - name: Flying_Enemy_Idle_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 0
+        y: 74
+        width: 128
+        height: 54
+      spriteId: fa141c0239bb93b43871cee430b6d940
+    - name: Flying_Enemy_Idle_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 0
+        y: 74
+        width: 128
+        height: 54
+      spriteId: d7f43714606d98e41a5247cede87d5d1
+    - name: Flying_Enemy_Idle_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 0
+        y: 74
+        width: 128
+        height: 54
+      spriteId: 228a513ef42395b43af275f7dcb82bd6
+    - name: Flying_Enemy_Idle_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 0
+        y: 74
+        width: 128
+        height: 54
+      spriteId: f62cd1844d03abe4999ecb2b3d29108b
+    - name: Flying_Enemy_Idle_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 0
+        y: 74
+        width: 128
+        height: 54
+      spriteId: dbcdaff7799b4c4438c58a492496574f
+    - name: Flying_Enemy_Idle_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 0
+        y: 62
+        width: 128
+        height: 66
+      spriteId: 07bedb7ed70ae044eb8822d14079aa43
+    - name: Flying_Enemy_Idle_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 0
+        y: 54
+        width: 128
+        height: 74
+      spriteId: 74b9628caa6af1048a660ce218b4ecdf
+    - name: Flying_Enemy_Idle_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 0
+        y: 48
+        width: 128
+        height: 80
+      spriteId: fcbf56dc217610748a00ac467aa42495
+    - name: Flying_Enemy_Idle_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 0
+        y: 48
+        width: 128
+        height: 80
+      spriteId: af627ff45ea37b84a92aec8bf9f0a8c1
+    - name: Flying_Enemy_Idle_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 0
+        y: 63
+        width: 128
+        height: 65
+      spriteId: 0a4ef9772d27e9e4ba53f9d977d09b81
+    - name: Flying_Enemy_Idle_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 0
+        y: 62
+        width: 128
+        height: 66
+      spriteId: b1af39c867824f7489e4a170f5888e2e
+    - name: Flying_Enemy_Idle_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 0
+        y: 74
+        width: 128
+        height: 54
+      spriteId: 46ddf528bd435a04a8b7a1308156b1bd
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 128, y: 128}
