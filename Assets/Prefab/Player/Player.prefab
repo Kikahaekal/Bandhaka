@@ -267,6 +267,7 @@ GameObject:
   - component: {fileID: 6254267627904024439}
   - component: {fileID: 3484262460956902276}
   - component: {fileID: 5926396679185692306}
+  - component: {fileID: 3393889298211873991}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -598,6 +599,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 1dc607f4-899d-4a4a-9102-cf1ddabb85bb
     m_ActionName: Player/Dodge[/Keyboard/ctrl]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6992849461832776662}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: Crouch
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: f26f5e50-9e16-4046-ba12-252c2f223779
+    m_ActionName: Player/Crouch[/Keyboard/s]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -637,7 +654,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16c4266a950ab6940aa1b2cc31b48047, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  groundDistance: 0.05
   castFilter:
     useTriggers: 0
     useLayerMask: 1
@@ -652,6 +668,9 @@ MonoBehaviour:
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
+  groundDistance: 0.05
+  wallDistance: 0.2
+  cellingDistance: 0.05
   _isGrounded: 0
 --- !u!82 &3484262460956902276
 AudioSource:
@@ -845,6 +864,26 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &3393889298211873991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938706459357776837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc493d350a5e42045ab98d8d208f27a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageableHit:
+    m_PersistentCalls:
+      m_Calls: []
+  _MaxHealth: 100
+  _Health: 100
+  _isAlive: 1
+  _isInvicible: 0
+  InvicibilityTimer: 0.5
 --- !u!1 &3541304914154996039
 GameObject:
   m_ObjectHideFlags: 0

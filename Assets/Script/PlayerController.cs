@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Rendering;
 
-[RequireComponent(typeof(Rigidbody2D), typeof(TouchDirection))]
+[RequireComponent(typeof(Rigidbody2D), typeof(TouchDirection), typeof(Damageable))]
 public class PlayerController : MonoBehaviour
 {
 
@@ -20,6 +20,7 @@ public class PlayerController : MonoBehaviour
     Animator animator;
 
     TouchDirection touchDirection;
+    Damageable damageable;
 
     [SerializeField] private bool _isFacingRight = true;
     [SerializeField] private AudioSource PunchSoundEffect;
@@ -40,6 +41,19 @@ public class PlayerController : MonoBehaviour
         get
         {
             return animator.GetBool(AnimationStrings.isPlunging);
+        }
+    }
+
+    private bool _isCrouch = false;
+
+    public bool isCrouch 
+    {
+        get
+        {
+            return _isCrouch;
+        } set {
+            _isCrouch = value;
+            animator.SetBool(AnimationStrings.isCrouch, value);
         }
     }
 
@@ -99,7 +113,7 @@ public class PlayerController : MonoBehaviour
     {
         get
         {
-            if(canMove)
+            if(canMove && isCrouch == false)
             {
                 if(isMoving)
                 {
@@ -220,10 +234,9 @@ public class PlayerController : MonoBehaviour
                 // Mendapatkan arah karakter (1 untuk kanan, -1 untuk kiri)
                 float characterDirection = Mathf.Sign(transform.localScale.x);
 
-                // Memainkan animasi dodge
                 animator.SetTrigger(AnimationStrings.dodge);
                 // Menentukan posisi target setelah dodge
-                float dodgeDistance = 9.0f; // Sesuaikan dengan kebutuhan Anda
+                float dodgeDistance = 9.0f;
                 Vector3 dodgeTarget = transform.position + new Vector3(characterDirection * dodgeDistance, 0f, 0f);
 
                 // Memulai animasi pergerakan ke posisi target
@@ -251,5 +264,17 @@ public class PlayerController : MonoBehaviour
 
         // Pastikan karakter berada pada posisi target setelah pergerakan selesai
         transform.position = targetPosition;
+    }
+
+    public void Crouch(InputAction.CallbackContext context)
+    {
+        if(context.started  && touchDirection.isGrounded)
+        {
+            animator.SetTrigger(AnimationStrings.crouch);
+            isCrouch = true;
+        } else if(context.canceled) 
+        {
+            isCrouch = false;
+        }
     }
 }
