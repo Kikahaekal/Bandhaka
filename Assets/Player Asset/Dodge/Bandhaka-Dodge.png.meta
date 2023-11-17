@@ -140,8 +140,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 39
+        y: 302
+        width: 61
         height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -160,10 +160,10 @@ TextureImporter:
       name: Bandhaka-Dodge_1
       rect:
         serializedVersion: 2
-        x: 39
-        y: 0
-        width: 42
-        height: 58
+        x: 0
+        y: 246
+        width: 61
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,10 +181,10 @@ TextureImporter:
       name: Bandhaka-Dodge_2
       rect:
         serializedVersion: 2
-        x: 81
-        y: 0
+        x: 0
+        y: 196
         width: 61
-        height: 58
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,10 +202,10 @@ TextureImporter:
       name: Bandhaka-Dodge_3
       rect:
         serializedVersion: 2
-        x: 142
-        y: 0
-        width: 50
-        height: 58
+        x: 0
+        y: 152
+        width: 61
+        height: 44
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,10 +223,10 @@ TextureImporter:
       name: Bandhaka-Dodge_4
       rect:
         serializedVersion: 2
-        x: 192
-        y: 0
-        width: 55
-        height: 58
+        x: 0
+        y: 109
+        width: 61
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,10 +244,10 @@ TextureImporter:
       name: Bandhaka-Dodge_5
       rect:
         serializedVersion: 2
-        x: 247
-        y: 0
+        x: 0
+        y: 58
         width: 61
-        height: 58
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,9 +265,9 @@ TextureImporter:
       name: Bandhaka-Dodge_6
       rect:
         serializedVersion: 2
-        x: 308
+        x: 0
         y: 0
-        width: 42
+        width: 61
         height: 58
       alignment: 0
       pivot: {x: 0, y: 0}

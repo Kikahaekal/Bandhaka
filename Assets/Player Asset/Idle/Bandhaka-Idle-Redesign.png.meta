@@ -140,11 +140,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 55
+        y: 802
+        width: 40
         height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -160,12 +160,12 @@ TextureImporter:
       name: Bandhaka-Idle-Redesign_1
       rect:
         serializedVersion: 2
-        x: 55
-        y: 0
-        width: 55
+        x: 0
+        y: 744
+        width: 40
         height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -181,12 +181,12 @@ TextureImporter:
       name: Bandhaka-Idle-Redesign_2
       rect:
         serializedVersion: 2
-        x: 110
-        y: 0
-        width: 55
+        x: 0
+        y: 686
+        width: 40
         height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -202,12 +202,12 @@ TextureImporter:
       name: Bandhaka-Idle-Redesign_3
       rect:
         serializedVersion: 2
-        x: 165
-        y: 0
-        width: 55
+        x: 0
+        y: 628
+        width: 40
         height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -223,12 +223,12 @@ TextureImporter:
       name: Bandhaka-Idle-Redesign_4
       rect:
         serializedVersion: 2
-        x: 220
-        y: 0
-        width: 55
-        height: 58
+        x: 0
+        y: 571
+        width: 40
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -244,12 +244,12 @@ TextureImporter:
       name: Bandhaka-Idle-Redesign_5
       rect:
         serializedVersion: 2
-        x: 275
-        y: 0
-        width: 55
-        height: 58
+        x: 0
+        y: 514
+        width: 40
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -265,12 +265,12 @@ TextureImporter:
       name: Bandhaka-Idle-Redesign_6
       rect:
         serializedVersion: 2
-        x: 330
-        y: 0
-        width: 55
-        height: 58
+        x: 0
+        y: 458
+        width: 40
+        height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -286,12 +286,12 @@ TextureImporter:
       name: Bandhaka-Idle-Redesign_7
       rect:
         serializedVersion: 2
-        x: 385
-        y: 0
-        width: 55
-        height: 58
+        x: 0
+        y: 402
+        width: 40
+        height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -307,12 +307,12 @@ TextureImporter:
       name: Bandhaka-Idle-Redesign_8
       rect:
         serializedVersion: 2
-        x: 440
-        y: 0
-        width: 55
-        height: 58
+        x: 0
+        y: 346
+        width: 40
+        height: 56
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -328,12 +328,12 @@ TextureImporter:
       name: Bandhaka-Idle-Redesign_9
       rect:
         serializedVersion: 2
-        x: 495
-        y: 0
-        width: 55
-        height: 58
+        x: 0
+        y: 289
+        width: 40
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -349,12 +349,12 @@ TextureImporter:
       name: Bandhaka-Idle-Redesign_10
       rect:
         serializedVersion: 2
-        x: 550
-        y: 0
-        width: 55
-        height: 58
+        x: 0
+        y: 232
+        width: 40
+        height: 57
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -370,12 +370,12 @@ TextureImporter:
       name: Bandhaka-Idle-Redesign_11
       rect:
         serializedVersion: 2
-        x: 605
-        y: 0
-        width: 55
+        x: 0
+        y: 174
+        width: 40
         height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -391,12 +391,12 @@ TextureImporter:
       name: Bandhaka-Idle-Redesign_12
       rect:
         serializedVersion: 2
-        x: 660
-        y: 0
-        width: 55
+        x: 0
+        y: 116
+        width: 40
         height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -412,12 +412,12 @@ TextureImporter:
       name: Bandhaka-Idle-Redesign_13
       rect:
         serializedVersion: 2
-        x: 715
-        y: 0
-        width: 55
+        x: 0
+        y: 58
+        width: 40
         height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -433,12 +433,12 @@ TextureImporter:
       name: Bandhaka-Idle-Redesign_14
       rect:
         serializedVersion: 2
-        x: 770
+        x: 0
         y: 0
-        width: 55
+        width: 40
         height: 58
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -446,27 +446,6 @@ TextureImporter:
       bones: []
       spriteID: 94f2a1b2625c0dd4db408959453f8986
       internalID: -1345393642
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bandhaka-Idle-Redesign_15
-      rect:
-        serializedVersion: 2
-        x: 825
-        y: 0
-        width: 55
-        height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c9fbf76384578004dbc78f7c9a380eaa
-      internalID: 679028732
       vertices: []
       indices: 
       edges: []
@@ -489,7 +468,6 @@ TextureImporter:
       Bandhaka-Idle-Redesign_12: -1957672230
       Bandhaka-Idle-Redesign_13: -564505729
       Bandhaka-Idle-Redesign_14: -1345393642
-      Bandhaka-Idle-Redesign_15: 679028732
       Bandhaka-Idle-Redesign_2: 872260443
       Bandhaka-Idle-Redesign_3: 658106311
       Bandhaka-Idle-Redesign_4: 1523415947

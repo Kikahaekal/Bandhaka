@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
     TouchDirection touchDirection;
     Damageable damageable;
 
+    [SerializeField] Collider2D standingCollider;
     [SerializeField] private bool _isFacingRight = true;
     [SerializeField] private AudioSource PunchSoundEffect;
     [SerializeField] private AudioSource JumpSoundEffect;
@@ -272,9 +273,11 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetTrigger(AnimationStrings.crouch);
             isCrouch = true;
+            standingCollider.enabled = false;
         } else if(context.canceled) 
         {
             isCrouch = false;
+            standingCollider.enabled = true;
         }
     }
 }

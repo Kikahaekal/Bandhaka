@@ -140,8 +140,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 40
+        y: 416
+        width: 39
         height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -160,9 +160,9 @@ TextureImporter:
       name: Bandhaka-Crouch_1
       rect:
         serializedVersion: 2
-        x: 40
-        y: 0
-        width: 38
+        x: 0
+        y: 358
+        width: 39
         height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -181,10 +181,10 @@ TextureImporter:
       name: Bandhaka-Crouch_2
       rect:
         serializedVersion: 2
-        x: 78
-        y: 0
+        x: 0
+        y: 302
         width: 39
-        height: 58
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,10 +202,10 @@ TextureImporter:
       name: Bandhaka-Crouch_3
       rect:
         serializedVersion: 2
-        x: 117
-        y: 0
+        x: 0
+        y: 248
         width: 39
-        height: 58
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,10 +223,10 @@ TextureImporter:
       name: Bandhaka-Crouch_4
       rect:
         serializedVersion: 2
-        x: 156
-        y: 0
-        width: 38
-        height: 58
+        x: 0
+        y: 202
+        width: 39
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,10 +244,10 @@ TextureImporter:
       name: Bandhaka-Crouch_5
       rect:
         serializedVersion: 2
-        x: 194
-        y: 0
-        width: 37
-        height: 58
+        x: 0
+        y: 156
+        width: 39
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,10 +265,10 @@ TextureImporter:
       name: Bandhaka-Crouch_6
       rect:
         serializedVersion: 2
-        x: 231
-        y: 0
-        width: 38
-        height: 58
+        x: 0
+        y: 110
+        width: 39
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,10 +286,10 @@ TextureImporter:
       name: Bandhaka-Crouch_7
       rect:
         serializedVersion: 2
-        x: 269
-        y: 0
+        x: 0
+        y: 56
         width: 39
-        height: 58
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,10 +307,10 @@ TextureImporter:
       name: Bandhaka-Crouch_8
       rect:
         serializedVersion: 2
-        x: 308
+        x: 0
         y: 0
-        width: 38
-        height: 58
+        width: 39
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,48 +320,6 @@ TextureImporter:
       bones: []
       spriteID: 602609f248c0f7c40b82b6521bbfb8b7
       internalID: -2080358149
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bandhaka-Crouch_9
-      rect:
-        serializedVersion: 2
-        x: 346
-        y: 0
-        width: 40
-        height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88bba194920b20c448dcf1f2b8e47df9
-      internalID: -1823455682
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bandhaka-Crouch_10
-      rect:
-        serializedVersion: 2
-        x: 386
-        y: 0
-        width: 39
-        height: 58
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6371466a369ec314dab284be69854f1e
-      internalID: 192485778
       vertices: []
       indices: 
       edges: []
@@ -379,7 +337,6 @@ TextureImporter:
     nameFileIdTable:
       Bandhaka-Crouch_0: -1701553495
       Bandhaka-Crouch_1: -251004167
-      Bandhaka-Crouch_10: 192485778
       Bandhaka-Crouch_2: -897242930
       Bandhaka-Crouch_3: 1033637120
       Bandhaka-Crouch_4: 1197697314
@@ -387,7 +344,6 @@ TextureImporter:
       Bandhaka-Crouch_6: 2145876280
       Bandhaka-Crouch_7: 657179957
       Bandhaka-Crouch_8: -2080358149
-      Bandhaka-Crouch_9: -1823455682
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -268,6 +268,7 @@ GameObject:
   - component: {fileID: 3484262460956902276}
   - component: {fileID: 5926396679185692306}
   - component: {fileID: 3393889298211873991}
+  - component: {fileID: 7597550413918233715}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -341,7 +342,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3.4375, y: 3.625}
+  m_Size: {x: 2.5, y: 3.625}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -637,6 +638,7 @@ MonoBehaviour:
   JumpPower: 10
   plungeSpeed: 10
   dodgeSpeed: 12
+  standingCollider: {fileID: 2595782138524617821}
   _isFacingRight: 1
   PunchSoundEffect: {fileID: 3484262460956902276}
   JumpSoundEffect: {fileID: 5926396679185692306}
@@ -884,6 +886,41 @@ MonoBehaviour:
   _isAlive: 1
   _isInvicible: 0
   InvicibilityTimer: 0.5
+--- !u!70 &7597550413918233715
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938706459357776837}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.7648295}
+  m_Size: {x: 2.5, y: 2.5000002}
+  m_Direction: 0
 --- !u!1 &3541304914154996039
 GameObject:
   m_ObjectHideFlags: 0

@@ -140,9 +140,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 46.625
-        height: 65
+        y: 433.125
+        width: 57
+        height: 61.875
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,10 +160,10 @@ TextureImporter:
       name: Bandhaka-Attack-3_1
       rect:
         serializedVersion: 2
-        x: 46
-        y: 0
-        width: 43
-        height: 65
+        x: 0
+        y: 367
+        width: 57
+        height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,10 +181,10 @@ TextureImporter:
       name: Bandhaka-Attack-3_2
       rect:
         serializedVersion: 2
-        x: 89
-        y: 0
-        width: 41
-        height: 65
+        x: 0
+        y: 305
+        width: 57
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,10 +202,10 @@ TextureImporter:
       name: Bandhaka-Attack-3_3
       rect:
         serializedVersion: 2
-        x: 130
-        y: 0
-        width: 39
-        height: 65
+        x: 0
+        y: 242
+        width: 57
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,10 +223,10 @@ TextureImporter:
       name: Bandhaka-Attack-3_4
       rect:
         serializedVersion: 2
-        x: 169
-        y: 0
-        width: 58
-        height: 65
+        x: 0
+        y: 179
+        width: 57
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,10 +244,10 @@ TextureImporter:
       name: Bandhaka-Attack-3_5
       rect:
         serializedVersion: 2
-        x: 227
-        y: 0
-        width: 56
-        height: 65
+        x: 0
+        y: 116
+        width: 57
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,10 +265,10 @@ TextureImporter:
       name: Bandhaka-Attack-3_6
       rect:
         serializedVersion: 2
-        x: 283
-        y: 0
-        width: 51
-        height: 65
+        x: 0
+        y: 57
+        width: 57
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,10 +286,10 @@ TextureImporter:
       name: Bandhaka-Attack-3_7
       rect:
         serializedVersion: 2
-        x: 334
+        x: 0
         y: 0
-        width: 39
-        height: 65
+        width: 57
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
