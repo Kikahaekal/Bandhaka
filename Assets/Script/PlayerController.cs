@@ -280,4 +280,9 @@ public class PlayerController : MonoBehaviour
             standingCollider.enabled = true;
         }
     }
+
+    public void OnHit(int damage, Vector2 knockback)
+    {
+        rb.velocity = new Vector2(knockback.x, rb.velocity.y + knockback.y);
+    }
 }

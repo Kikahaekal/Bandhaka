@@ -17,8 +17,10 @@ internal class AnimationStrings
     internal static string isCrouch = "isCrouch";
     internal static string isPlunging = "isPlunging";
     internal static string canMove = "canMove";
+    internal static string hasTarget = "hasTarget";
     internal static string lockVelocity = "lockVelocity";
     internal static string yVelocity = "yVelocity";
+    internal static string attackCooldown = "attackCooldown";
 
     //trigger
     internal static string jump = "jump";

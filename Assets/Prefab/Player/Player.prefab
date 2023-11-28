@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5439435360496073456}
   - component: {fileID: 2826320307605552429}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PunchAttack2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -269,7 +269,8 @@ GameObject:
   - component: {fileID: 5926396679185692306}
   - component: {fileID: 3393889298211873991}
   - component: {fileID: 7597550413918233715}
-  m_Layer: 6
+  - component: {fileID: 5214494289532708834}
+  m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -336,7 +337,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 320367294, guid: b25f8ecab8ddff045846e08254220d04, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -665,7 +666,7 @@ MonoBehaviour:
     useOutsideNormalAngle: 0
     layerMask:
       serializedVersion: 2
-      m_Bits: 128
+      m_Bits: 64
     minDepth: 0
     maxDepth: 0
     minNormalAngle: 0
@@ -880,7 +881,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageableHit:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6992849461832776662}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnHit
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   _MaxHealth: 100
   _Health: 100
   _isAlive: 1
@@ -918,9 +931,25 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.7648295}
-  m_Size: {x: 2.5, y: 2.5000002}
+  m_Offset: {x: 0, y: -0.53720856}
+  m_Size: {x: 2.5, y: 2.5}
   m_Direction: 0
+--- !u!114 &5214494289532708834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938706459357776837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9ae399cf97e22e4e99577070da42d3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NoCollidersRemain:
+    m_PersistentCalls:
+      m_Calls: []
+  detectedColliders: []
 --- !u!1 &3541304914154996039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1018,7 +1047,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3912492427707023507}
   - component: {fileID: 9167130535745343701}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PunchAttack3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
