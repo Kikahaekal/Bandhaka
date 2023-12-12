@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ef84afc6ae45b494f822d2925d90f662
+guid: 9ed53e8bc825c974cb0961a7960fe65f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,190 +136,274 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bandhaka-Crouch_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 416
-        width: 39
-        height: 58
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f1fbf05018485aa4f94a380c85a32770
-      internalID: -1701553495
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bandhaka-Crouch_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 358
-        width: 39
-        height: 58
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 94b53e81ade558b4695ee1328c18239f
-      internalID: -251004167
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bandhaka-Crouch_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 302
-        width: 39
-        height: 56
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 130e1635d39a68e41904118a35c01f63
-      internalID: -897242930
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bandhaka-Crouch_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 248
-        width: 39
-        height: 54
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 598d38f0f848c7e438894e8a147e1a1d
-      internalID: 1033637120
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bandhaka-Crouch_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 202
-        width: 39
-        height: 46
-      alignment: 9
-      pivot: {x: 0.5000004, y: 0.3876446}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42f2afa7e77a7384a8558090a26c4de2
-      internalID: 1197697314
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bandhaka-Crouch_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 156
-        width: 39
-        height: 46
-      alignment: 9
-      pivot: {x: 0.5000004, y: 0.38764456}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 98729f5fdec59e54c998fa0fb42d67b5
-      internalID: -17795937
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bandhaka-Crouch_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 110
-        width: 39
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0b2abfc4e10813e4fa8c90f9dd4a79f2
-      internalID: 2145876280
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bandhaka-Crouch_7
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 56
-        width: 39
-        height: 54
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2349d4a9224a4204fabd76bfe47da25d
-      internalID: 657179957
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bandhaka-Crouch_8
+      name: Enemy_Attack_New_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 39
-        height: 56
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 108
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4121729, y: 0.3295444}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 602609f248c0f7c40b82b6521bbfb8b7
-      internalID: -2080358149
+      spriteID: 56c523bdcf0932841abb28bcfc665154
+      internalID: 2091017335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Attack_New_1
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 108
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4121729, y: 0.3295444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82aea9132a20190468f542ab77d4dff6
+      internalID: -809799517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Attack_New_2
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 108
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4121729, y: 0.3295444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8335fcb3928087e4eb622dfcf70f7760
+      internalID: 1736713432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Attack_New_3
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 109
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4121729, y: 0.3295444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ce85660c2a1b24abbd794c73662568
+      internalID: 611718983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Attack_New_4
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 108
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4121729, y: 0.3295444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb094c5d93517848877d04d719d90ef
+      internalID: 1431881145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Attack_New_5
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 108
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4121729, y: 0.3295444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d080b6c28291849b1ebe9d0abd419f
+      internalID: 449888799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Attack_New_6
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 0
+        width: 108
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4121729, y: 0.3295444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ecc49068878494397043e606e60dd0
+      internalID: 827899089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Attack_New_7
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 0
+        width: 108
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4121729, y: 0.3295444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae71c9b5ef4e35f4095015ad2b5f7b05
+      internalID: 1371601534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Attack_New_8
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 108
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4121729, y: 0.3295444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1a0f1ab25ff744495e7d8562872d71
+      internalID: 1946603132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Attack_New_9
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 0
+        width: 108
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4121729, y: 0.32954443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b485775c7361464a880bc2c7d619052
+      internalID: 173844470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Attack_New_10
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 0
+        width: 108
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4121729, y: 0.3295444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 913d9bf3ae7787b489af8f87f40af8c4
+      internalID: 1345761008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Attack_New_11
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 0
+        width: 112
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4121729, y: 0.3295444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01976f2e44656ec4fa0e63f6410db232
+      internalID: -1421953349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Enemy_Attack_New_12
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 0
+        width: 104
+        height: 86
+      alignment: 9
+      pivot: {x: 0.4121729, y: 0.3295444}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a447ff4a737064f469a7495c7e0d4d48
+      internalID: 1113868636
       vertices: []
       indices: 
       edges: []
@@ -335,15 +419,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Bandhaka-Crouch_0: -1701553495
-      Bandhaka-Crouch_1: -251004167
-      Bandhaka-Crouch_2: -897242930
-      Bandhaka-Crouch_3: 1033637120
-      Bandhaka-Crouch_4: 1197697314
-      Bandhaka-Crouch_5: -17795937
-      Bandhaka-Crouch_6: 2145876280
-      Bandhaka-Crouch_7: 657179957
-      Bandhaka-Crouch_8: -2080358149
+      Enemy_Attack_New_0: 2091017335
+      Enemy_Attack_New_1: -809799517
+      Enemy_Attack_New_10: 1345761008
+      Enemy_Attack_New_11: -1421953349
+      Enemy_Attack_New_12: 1113868636
+      Enemy_Attack_New_2: 1736713432
+      Enemy_Attack_New_3: 611718983
+      Enemy_Attack_New_4: 1431881145
+      Enemy_Attack_New_5: 449888799
+      Enemy_Attack_New_6: 827899089
+      Enemy_Attack_New_7: 1371601534
+      Enemy_Attack_New_8: 1946603132
+      Enemy_Attack_New_9: 173844470
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
