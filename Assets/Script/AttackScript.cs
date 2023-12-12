@@ -7,6 +7,16 @@ public class AttackScript : MonoBehaviour
     public int attackDamage = 10;
     public Vector2 knockback = Vector2.zero;
 
+    void Start()
+    {
+
+    }
+
+    void Update()
+    {
+        
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Damageable damageable = collision.GetComponent<Damageable>();

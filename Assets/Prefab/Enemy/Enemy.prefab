@@ -104,7 +104,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3235776465946033515}
   - component: {fileID: 8821742645919590925}
-  m_Layer: 8
+  - component: {fileID: 906533089932409821}
+  m_Layer: 10
   m_Name: Attack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133,7 +134,7 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4251700356660503782}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -179,6 +180,20 @@ PolygonCollider2D:
       - {x: 2.9717464, y: -0.38640177}
       - {x: 2.8194609, y: 0.9660389}
   m_UseDelaunayMesh: 0
+--- !u!114 &906533089932409821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4251700356660503782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e773e2d584e68dc44a644258423029aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDamage: 10
+  knockback: {x: 3.4, y: 1}
 --- !u!1 &5695591992723797449
 GameObject:
   m_ObjectHideFlags: 0
