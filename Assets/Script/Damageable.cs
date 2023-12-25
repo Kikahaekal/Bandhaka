@@ -8,7 +8,10 @@ public class Damageable : MonoBehaviour
     public UnityEvent<int, Vector2> damageableHit;
 
     Animator animator;
+    GameOverScript gameOver;
     [SerializeField] private int _MaxHealth = 100;
+
+    public bool isPlayer = true;
 
     public int MaxHealth
     {
@@ -68,6 +71,11 @@ public class Damageable : MonoBehaviour
             _isAlive = value;
             animator.SetBool(AnimationStrings.isAlive, value);
             Debug.Log("IsAlive set " + value);
+
+            if (_isAlive == false)
+            {
+                HandleDeath();
+            }
         }
     }
 
@@ -86,6 +94,7 @@ public class Damageable : MonoBehaviour
     private void Awake()
     {
         animator = GetComponent<Animator>();
+        gameOver = FindObjectOfType<GameOverScript>();
     }
 
     private void Update()
@@ -118,5 +127,13 @@ public class Damageable : MonoBehaviour
         }
 
         return false;
+    }
+
+     private void HandleDeath()
+    {
+        if (isPlayer && gameOver != null)
+        {
+           gameOver.GameOver();
+        }
     }
 }

@@ -34,6 +34,7 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUi.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
+        AudioListener.pause = false;
     }
 
     public void Quit()
@@ -46,5 +47,6 @@ public class PauseMenu : MonoBehaviour
         pauseMenuUi.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
+        AudioListener.pause = true;
     }
 }

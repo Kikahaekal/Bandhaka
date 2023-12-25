@@ -14,6 +14,7 @@ internal class AnimationStrings
     internal static string isWalking = "isWalking";
     internal static string isAlive = "isAlive";
     internal static string isAttacking = "isAttacking";
+    internal static string isPaused = "isPaused";
     internal static string isCrouch = "isCrouch";
     internal static string isPlunging = "isPlunging";
     internal static string canMove = "canMove";

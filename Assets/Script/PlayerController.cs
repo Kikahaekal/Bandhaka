@@ -22,11 +22,14 @@ public class PlayerController : MonoBehaviour
     TouchDirection touchDirection;
     Damageable damageable;
 
+    GameOverScript gameOver;
+    PauseMenu pauseMenu;
+
     [SerializeField] Collider2D standingCollider;
     [SerializeField] private bool _isFacingRight = true;
     [SerializeField] private AudioSource PunchSoundEffect;
     [SerializeField] private AudioSource JumpSoundEffect;
-
+    
     private bool isAttacking 
     {
         get
@@ -110,6 +113,14 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    // public bool isPaused 
+    // { 
+    //     get 
+    //     {
+    //         return animator.GetBool(AnimationStrings.isPaused);
+    //     } 
+    // }
+
     public float CurrentSpeed
     {
         get
@@ -134,6 +145,9 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         touchDirection = GetComponent<TouchDirection>();
+        pauseMenu = GetComponent<PauseMenu>();
+        gameOver = FindObjectOfType<GameOverScript>();
+        PunchSoundEffect = GetComponent<AudioSource>();
     }
 
 
