@@ -34,6 +34,7 @@ public class GameOverScript : MonoBehaviour
     {
         string currentScene = SceneManager.GetActiveScene().name;
         SceneManager.LoadScene(currentScene);
+        Debug.Log("Retry button pressed");
         Time.timeScale = 1f;
         isGameOver = false;
         AudioListener.pause = false;

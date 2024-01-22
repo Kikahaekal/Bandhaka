@@ -195,7 +195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e773e2d584e68dc44a644258423029aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackDamage: 10
+  attackDamage: 100
   knockback: {x: 2, y: 1}
 --- !u!1 &1347142714357607586
 GameObject:
@@ -942,10 +942,11 @@ MonoBehaviour:
         m_CallState: 2
   _MaxHealth: 100
   isPlayer: 1
+  isEnemy: 0
   _Health: 100
   _isAlive: 1
-  _isInvicible: 0
-  InvicibilityTimer: 0.5
+  _isInvincible: 0
+  InvincibilityTimer: 0.5
 --- !u!70 &7597550413918233715
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1097,7 +1098,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e773e2d584e68dc44a644258423029aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackDamage: 20
+  attackDamage: 50
   knockback: {x: 0, y: 0}
 --- !u!1 &4273535850299328185
 GameObject:

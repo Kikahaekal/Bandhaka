@@ -9,9 +9,11 @@ public class Damageable : MonoBehaviour
 
     Animator animator;
     GameOverScript gameOver;
+    private SpriteRenderer spriteRenderer;
     [SerializeField] private int _MaxHealth = 100;
 
     public bool isPlayer = true;
+    public bool isEnemy = true;
 
     public int MaxHealth
     {
@@ -37,7 +39,7 @@ public class Damageable : MonoBehaviour
         {
             _Health = value;
 
-            if(_Health <= 0)
+            if (_Health <= 0)
             {
                 isAlive = false;
             }
@@ -45,20 +47,22 @@ public class Damageable : MonoBehaviour
     }
 
     [SerializeField] private bool _isAlive = true;
-    [SerializeField] private bool _isInvicible = false;
+    [SerializeField] private bool _isInvincible = false;
 
-    public bool isInvicible 
+    public bool isInvincible
     {
         get
         {
-            return _isInvicible;
-        } set {
-            _isInvicible = value;
+            return _isInvincible;
+        }
+        set
+        {
+            _isInvincible = value;
         }
     }
 
     private float timeSinceHit = 0;
-    public float InvicibilityTimer = 0.5f;
+    public float InvincibilityTimer = 0.5f;
 
     public bool isAlive
     {
@@ -95,15 +99,16 @@ public class Damageable : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         gameOver = FindObjectOfType<GameOverScript>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     private void Update()
     {
-        if(isInvicible)
+        if (isInvincible)
         {
-            if(timeSinceHit > InvicibilityTimer)
+            if (timeSinceHit > InvincibilityTimer)
             {
-                isInvicible = false;
+                isInvincible = false;
                 timeSinceHit = 0;
             }
 
@@ -113,10 +118,10 @@ public class Damageable : MonoBehaviour
 
     public bool Hit(int damage, Vector2 knockback)
     {
-        if(isAlive && !isInvicible)
+        if (isAlive && !isInvincible)
         {
             Health -= damage;
-            isInvicible = true;
+            isInvincible = true;
 
             animator.SetTrigger(AnimationStrings.hit);
             LockVelocity = true;
@@ -129,11 +134,46 @@ public class Damageable : MonoBehaviour
         return false;
     }
 
-     private void HandleDeath()
+    private void HandleDeath()
     {
         if (isPlayer && gameOver != null)
         {
-           gameOver.GameOver();
+            gameOver.GameOver();
+        }
+
+        if (isEnemy)
+        {
+            StartCoroutine(FadeOut());
+        }
+    }
+
+    private IEnumerator FadeOut()
+    {
+        float elapsedTime = 0f;
+        float fadeTime = 0.1f; // You can adjust the time it takes to fade out
+
+        while (elapsedTime < fadeTime)
+        {
+            float alpha = Mathf.Lerp(1f, 0f, elapsedTime / fadeTime);
+            spriteRenderer.color = new Color(spriteRenderer.color.r, spriteRenderer.color.g, spriteRenderer.color.b, alpha);
+
+            elapsedTime += Time.deltaTime;
+            yield return null;
+        }
+
+        // Make sure the sprite is completely invisible
+        spriteRenderer.color = new Color(spriteRenderer.color.r, spriteRenderer.color.g, spriteRenderer.color.b, 0f);
+
+        Destroy(gameObject);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Lava"))
+        {
+            // Handle collision with lava
+            int lavaDamage = 100;
+            Hit(lavaDamage, Vector2.zero);
         }
     }
 }

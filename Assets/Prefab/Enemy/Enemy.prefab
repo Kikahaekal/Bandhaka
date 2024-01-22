@@ -318,7 +318,7 @@ GameObject:
   - component: {fileID: 6745293044858911638}
   m_Layer: 8
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -495,10 +495,11 @@ MonoBehaviour:
         m_CallState: 2
   _MaxHealth: 100
   isPlayer: 0
+  isEnemy: 1
   _Health: 100
   _isAlive: 1
-  _isInvicible: 0
-  InvicibilityTimer: 0.5
+  _isInvincible: 0
+  InvincibilityTimer: 0.5
 --- !u!70 &6029807961256526162
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
