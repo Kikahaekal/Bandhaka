@@ -138,9 +138,11 @@ GameObject:
   m_Component:
   - component: {fileID: 19916815}
   - component: {fileID: 19916814}
-  m_Layer: 0
+  - component: {fileID: 19916817}
+  - component: {fileID: 19916816}
+  m_Layer: 12
   m_Name: Triangle (1)
-  m_TagString: Untagged
+  m_TagString: Lava
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -212,6 +214,40 @@ Transform:
   m_Children: []
   m_Father: {fileID: 985353202}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &19916816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19916813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d77a188bc46334c8e164c41068c910, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &19916817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 19916813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc493d350a5e42045ab98d8d208f27a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageableHit:
+    m_PersistentCalls:
+      m_Calls: []
+  _MaxHealth: 100
+  isPlayer: 1
+  isEnemy: 1
+  _Health: 100
+  _isAlive: 1
+  _isInvincible: 0
+  InvincibilityTimer: 0.5
 --- !u!1 &191166929
 GameObject:
   m_ObjectHideFlags: 0
@@ -222,9 +258,11 @@ GameObject:
   m_Component:
   - component: {fileID: 191166931}
   - component: {fileID: 191166930}
-  m_Layer: 0
+  - component: {fileID: 191166933}
+  - component: {fileID: 191166932}
+  m_Layer: 12
   m_Name: Triangle (3)
-  m_TagString: Untagged
+  m_TagString: Lava
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -296,6 +334,40 @@ Transform:
   m_Children: []
   m_Father: {fileID: 985353202}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &191166932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191166929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d77a188bc46334c8e164c41068c910, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &191166933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191166929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc493d350a5e42045ab98d8d208f27a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageableHit:
+    m_PersistentCalls:
+      m_Calls: []
+  _MaxHealth: 100
+  isPlayer: 1
+  isEnemy: 1
+  _Health: 100
+  _isAlive: 1
+  _isInvincible: 0
+  InvincibilityTimer: 0.5
 --- !u!1 &226583041
 GameObject:
   m_ObjectHideFlags: 0
@@ -436,9 +508,11 @@ GameObject:
   m_Component:
   - component: {fileID: 474832353}
   - component: {fileID: 474832352}
-  m_Layer: 0
+  - component: {fileID: 474832355}
+  - component: {fileID: 474832354}
+  m_Layer: 12
   m_Name: Triangle (13)
-  m_TagString: Untagged
+  m_TagString: Lava
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -510,6 +584,40 @@ Transform:
   m_Children: []
   m_Father: {fileID: 985353202}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &474832354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474832351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d77a188bc46334c8e164c41068c910, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &474832355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474832351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc493d350a5e42045ab98d8d208f27a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageableHit:
+    m_PersistentCalls:
+      m_Calls: []
+  _MaxHealth: 100
+  isPlayer: 1
+  isEnemy: 1
+  _Health: 100
+  _isAlive: 1
+  _isInvincible: 0
+  InvincibilityTimer: 0.5
 --- !u!1001 &485087017
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -711,9 +819,11 @@ GameObject:
   m_Component:
   - component: {fileID: 490300006}
   - component: {fileID: 490300005}
-  m_Layer: 0
+  - component: {fileID: 490300008}
+  - component: {fileID: 490300007}
+  m_Layer: 12
   m_Name: Triangle (12)
-  m_TagString: Untagged
+  m_TagString: Lava
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -785,6 +895,40 @@ Transform:
   m_Children: []
   m_Father: {fileID: 985353202}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &490300007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490300004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d77a188bc46334c8e164c41068c910, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &490300008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490300004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc493d350a5e42045ab98d8d208f27a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageableHit:
+    m_PersistentCalls:
+      m_Calls: []
+  _MaxHealth: 100
+  isPlayer: 1
+  isEnemy: 1
+  _Health: 100
+  _isAlive: 1
+  _isInvincible: 0
+  InvincibilityTimer: 0.5
 --- !u!1 &552655318
 GameObject:
   m_ObjectHideFlags: 0
@@ -1426,9 +1570,11 @@ GameObject:
   m_Component:
   - component: {fileID: 985353202}
   - component: {fileID: 985353201}
-  m_Layer: 0
+  - component: {fileID: 985353204}
+  - component: {fileID: 985353203}
+  m_Layer: 12
   m_Name: Triangle
-  m_TagString: Untagged
+  m_TagString: Lava
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1507,6 +1653,40 @@ Transform:
   - {fileID: 474832353}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &985353203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985353200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d77a188bc46334c8e164c41068c910, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &985353204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985353200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc493d350a5e42045ab98d8d208f27a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageableHit:
+    m_PersistentCalls:
+      m_Calls: []
+  _MaxHealth: 100
+  isPlayer: 1
+  isEnemy: 1
+  _Health: 100
+  _isAlive: 1
+  _isInvincible: 0
+  InvincibilityTimer: 0.5
 --- !u!1 &1000375031
 GameObject:
   m_ObjectHideFlags: 0
@@ -2191,9 +2371,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1275656235}
   - component: {fileID: 1275656234}
-  m_Layer: 0
+  - component: {fileID: 1275656237}
+  - component: {fileID: 1275656236}
+  m_Layer: 12
   m_Name: Triangle (10)
-  m_TagString: Untagged
+  m_TagString: Lava
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2265,6 +2447,40 @@ Transform:
   m_Children: []
   m_Father: {fileID: 985353202}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1275656236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1275656233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d77a188bc46334c8e164c41068c910, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1275656237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1275656233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc493d350a5e42045ab98d8d208f27a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageableHit:
+    m_PersistentCalls:
+      m_Calls: []
+  _MaxHealth: 100
+  isPlayer: 1
+  isEnemy: 1
+  _Health: 100
+  _isAlive: 1
+  _isInvincible: 0
+  InvincibilityTimer: 0.5
 --- !u!1 &1281682742 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5891447992763327691, guid: b148a76c4d83f75408dbe735bb59dbcb, type: 3}
@@ -132721,9 +132937,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1960795580}
   - component: {fileID: 1960795579}
-  m_Layer: 0
+  - component: {fileID: 1960795582}
+  - component: {fileID: 1960795581}
+  m_Layer: 12
   m_Name: Triangle (2)
-  m_TagString: Untagged
+  m_TagString: Lava
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -132795,6 +133013,40 @@ Transform:
   m_Children: []
   m_Father: {fileID: 985353202}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1960795581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960795578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d77a188bc46334c8e164c41068c910, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1960795582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960795578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc493d350a5e42045ab98d8d208f27a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageableHit:
+    m_PersistentCalls:
+      m_Calls: []
+  _MaxHealth: 100
+  isPlayer: 1
+  isEnemy: 1
+  _Health: 100
+  _isAlive: 1
+  _isInvincible: 0
+  InvincibilityTimer: 0.5
 --- !u!1 &1967810612
 GameObject:
   m_ObjectHideFlags: 0
@@ -133139,9 +133391,11 @@ GameObject:
   m_Component:
   - component: {fileID: 2085463912}
   - component: {fileID: 2085463911}
-  m_Layer: 0
+  - component: {fileID: 2085463914}
+  - component: {fileID: 2085463913}
+  m_Layer: 12
   m_Name: Triangle (11)
-  m_TagString: Untagged
+  m_TagString: Lava
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -133213,6 +133467,40 @@ Transform:
   m_Children: []
   m_Father: {fileID: 985353202}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2085463913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085463910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3d77a188bc46334c8e164c41068c910, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2085463914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2085463910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc493d350a5e42045ab98d8d208f27a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageableHit:
+    m_PersistentCalls:
+      m_Calls: []
+  _MaxHealth: 100
+  isPlayer: 1
+  isEnemy: 1
+  _Health: 100
+  _isAlive: 1
+  _isInvincible: 0
+  InvincibilityTimer: 0.5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
